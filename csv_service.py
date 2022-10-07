@@ -1,7 +1,7 @@
 import csv
 
 
-def write_to_csv(iced, hot, filename='data_file.csv'):
+def write_to_csv(iced, hot, filename='output/data.csv'):
     data_file = open(filename, 'w', newline='', encoding='utf-8')
     header = ["id", "title", "description", "ingredients", "image"]
     csv_writer = csv.DictWriter(data_file, fieldnames=header)

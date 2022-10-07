@@ -1,5 +1,3 @@
-import csv
-import datetime
 import api_service
 from config_api import COFFEE
 from csv_service import write_to_csv
